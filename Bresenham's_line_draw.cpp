@@ -2,6 +2,7 @@
 #include<bihts/stdc++.h>
 #include<graphic.h>
 using namespace std;
+/* for slope <=1 */
 int main()
 {  int gd = DETECT, gm; 
   
@@ -30,7 +31,7 @@ int main()
     		x=x+1;
     		y=y+1;
     		putpixel(x,y,BLUE);
-    		pk=pk+2*dy-2*dx;
+    		pk=pk+(2*dy)-(2*dx);
     	}
 
     }
